@@ -1,0 +1,28 @@
+.header_main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .header_logo {
+        display: flex;
+        align-items: center;
+    }
+
+    .logo_name {
+        margin: 0px 0px 0px 12px;
+    }
+
+    .header_search_book {
+        input {
+            width: 286px;
+            height: 36px;
+            border-radius: 12px;
+        }
+    }
+
+    .login {
+        a {
+            margin: 20px;   
+        }
+    }
+}
