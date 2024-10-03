@@ -3,26 +3,30 @@ import headerStyles from './Header.module.scss';
 
 const Header = () => {
     return (
-        <div className={headerStyles.header_main}>
-            <div className={headerStyles.header_logo}>
-                <div>
+        <div className={headerStyles.header_main_block}>
+            <div className={headerStyles.header_logo_block}>
+                <div className={headerStyles.header_logo_img}>
                     <img src="./book_logo.png" alt="" />
                 </div>
-                <div className={headerStyles.logo_name}>
+                <div className={headerStyles.header_logo_name}>
                     <h2>Treasure shelf</h2>
                     <h5>Buy and sell used books</h5>
                 </div>
             </div>
 
             <div className={headerStyles.header_search_book}>
-                <input className={headerStyles.search_book_input} type="text" />
+                <input 
+                className={headerStyles.search_book_input} 
+                type="text" 
+                placeholder="Search for books and authors"
+                />
                 <button className={headerStyles.search_book_btn}>
                     <img src="./search_btn_icon.png" alt="" />
                 </button>
             </div>
             <div className={headerStyles.login}>
-                <a><img src="./lang.png" alt="" />language</a>
-                <a><img src="./login.png" alt="" /> log in</a>
+                <a><img className={headerStyles.login_lang_icon} src="./lang.png" alt="" />Language</a>
+                <a><img className={headerStyles.login_login_icon} src="./login.png" alt="" />Log in</a>
             </div>
         </div>
     )

@@ -1,3 +1,12 @@
+@font-face {
+  font-family: 'CustomFont';
+  src: url(../fonts/01_NTSomic-Regular.ttf);
+}
+
+body {
+  font-family: 'CustomFont';
+}
+
 .App {
   margin: 40px 80px 0px 80px;
 }

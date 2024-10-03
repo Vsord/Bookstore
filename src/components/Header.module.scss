@@ -1,15 +1,26 @@
-.header_main {
+.header_main_block {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 56px;
 
-    .header_logo {
+    .header_logo_block {
         display: flex;
         align-items: center;
+
+        .header_logo_img {
+            img {
+                width: 36px;
+                height: 38px;
+            }
+        }
     }
 
-    .logo_name {
+    .header_logo_name {
         margin: 0px 0px 0px 12px;
+        h5 {
+            font-size: 12px;
+        }
     }
 
     .header_search_book {
@@ -18,25 +29,38 @@
             width: 286px;
             height: 36px;
             border-radius: 12px;
-            padding: 0px;
+            padding: 0px 0px 0px 8px;
+            border-color: #A4A0A0;
         }
 
         .search_book_btn {
             position: absolute;
             padding: 0px;
-            right: 2px;
+            right: 1px;
             width: 28px;
             height: 36px;
             background-color: #33A052;
             border: none;
             border-radius: 0px 10px 10px 0px;
-            bottom: 1px;
+            bottom: 2px;
         }
     }
 
     .login {
         a {
-            margin: 20px;   
+            margin: 20px; 
+            
+            .login_lang_icon {
+                width: 16px;
+                height: 16px;
+                margin: 0px 4px 0px 0px;
+            }
+
+            .login_login_icon {
+                width: 16px;
+                height: 16px;
+                margin: 0px 4px 0px 0px;
+            }
         }
     }
 }
