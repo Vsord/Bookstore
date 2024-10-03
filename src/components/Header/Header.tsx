@@ -2,6 +2,11 @@ import React from "react";
 import headerStyles from './Header.module.scss';
 
 const Header = () => {
+
+    function btnClick() {
+        console.log("hello from me");
+    }
+
     return (
         <div className={headerStyles.header_main_block}>
             <div className={headerStyles.header_logo_block}>
@@ -20,7 +25,10 @@ const Header = () => {
                 type="text" 
                 placeholder="Search for books and authors"
                 />
-                <button className={headerStyles.search_book_btn}>
+                <button 
+                className={headerStyles.search_book_btn}
+                onClick={btnClick}
+                >
                     <img src="./search_btn_icon.png" alt="" />
                 </button>
             </div>

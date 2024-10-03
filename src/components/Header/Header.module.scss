@@ -47,9 +47,12 @@
     }
 
     .login {
-        a {
-            margin: 20px; 
-            
+
+        a:first-child {
+            margin: 0px 20px 0px 0px;
+        }
+
+        a { 
             .login_lang_icon {
                 width: 16px;
                 height: 16px;
