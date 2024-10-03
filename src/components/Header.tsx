@@ -15,7 +15,10 @@ const Header = () => {
             </div>
 
             <div className={headerStyles.header_search_book}>
-                <input type="text" />
+                <input className={headerStyles.search_book_input} type="text" />
+                <button className={headerStyles.search_book_btn}>
+                    <img src="./search_btn_icon.png" alt="" />
+                </button>
             </div>
             <div className={headerStyles.login}>
                 <a><img src="./lang.png" alt="" />language</a>
