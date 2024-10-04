@@ -25,4 +25,24 @@
     .category_top_line {
         border-bottom: 1px solid black;
     }
+
+    .category_main_block {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 20px;
+    }
+
+    .category_bottom_line_outer_block {
+        display: flex;
+        margin-top: 40px;
+
+        h3 {
+            margin-right: 22px;
+        }
+
+        .category_bottom_line {
+            border-bottom: 1px solid black;
+            min-width: 86%;
+        }
+    }
 }

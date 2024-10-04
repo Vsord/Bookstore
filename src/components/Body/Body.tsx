@@ -26,11 +26,14 @@ const Body = () => {
 
             <div className={bodyStyles.category_top_line}></div>
 
-            <div className={bodyStyles.category}>
+            <div className={bodyStyles.category_main_block}>
+                <Category />
+                <Category />
+                <Category />
                 <Category />
             </div>
 
-            <div>
+            <div className={bodyStyles.category_bottom_line_outer_block}>
                 <h3>New offers</h3>
                 <div className={bodyStyles.category_bottom_line}></div>
             </div>
