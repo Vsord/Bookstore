@@ -40,9 +40,14 @@ const Body = () => {
 
             <div className={bodyStyles.product}>
                 <Product />
+                <Product />
+                <Product />
+                <Product />
+                <Product />
+                <Product />
             </div>
 
-            <div>
+            <div className={bodyStyles.product_bottom_line_outer_block}>
                 <h4>See all</h4>
                 <div className={bodyStyles.product_bottom_line}></div>
             </div>

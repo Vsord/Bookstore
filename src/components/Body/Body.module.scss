@@ -45,4 +45,22 @@
             min-width: 86%;
         }
     }
+
+    .product_bottom_line_outer_block {
+        margin-top: 32px;
+        h4 {
+            text-align: right;
+        }
+
+        .product_bottom_line {
+            border-bottom: 1px solid black;
+        }
+    }
+
+    .product {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 20px;
+    }
+
 }
