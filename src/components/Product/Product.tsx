@@ -11,7 +11,7 @@ const Product = () => {
                 <img src="./stars.png" alt="" />
             </div>
             <div className={productStyles.product_price}>
-                <p>$00</p>
+                <p>₴00</p>
                 <button>Buy</button>
             </div>
         </div>

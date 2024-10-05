@@ -1,0 +1,25 @@
+.footer_main_block {
+    background-color: #F1FFF5;
+    height: 96px;
+    margin-top: 56px;
+
+    .footer_inner_block {
+        margin: 0px 80px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 100%;
+
+        p {
+            font-weight: bold;
+        }
+
+        button { 
+            border: none;
+            width: 48px;
+            height: 40px;
+            border-radius: 12px;
+            background-color: #33A052;
+        }
+    }
+}
