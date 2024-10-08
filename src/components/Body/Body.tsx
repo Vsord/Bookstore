@@ -8,24 +8,6 @@ import Category from "../Category/Category";
 const Body = () => {
     return (
         <div className={bodyStyles.body_main_block}>
-            <div className={bodyStyles.main_block_inner}>
-                <div className={bodyStyles.book_categories_block}>
-                    <ul>
-                        <li>Books</li>
-                        <li>Magazines</li>
-                        <li>Comics</li>
-                        <li>Merch</li>
-                    </ul>
-                </div>
-                <div className={bodyStyles.icon_block}>
-                    <img src="./money_icon.png" alt="" />
-                    <img src="./basket_icon.png" alt="" />
-                    <img src="./flag_icon.png" alt="" />
-                </div>
-            </div>
-
-            <div className={bodyStyles.category_top_line}></div>
-
             <div className={bodyStyles.category_main_block}>
                 <Category />
                 <Category />

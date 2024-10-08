@@ -1,0 +1,20 @@
+.productPage_main_block {
+    display: flex;
+
+    .productPage_imgs {
+        button {
+            display: block;
+        }
+    }
+}
+
+.product_book_ID {
+    display: flex;
+    justify-content: space-between;
+
+    .product_complaint {
+        p {
+            display: inline-block;
+        }
+    }
+}

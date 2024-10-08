@@ -1,31 +1,4 @@
 .body_main_block {
-    .main_block_inner {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-
-        .book_categories_block {
-            ul {
-                padding: 0;
-                list-style: none;
-                li {
-                    display: inline;
-                    margin: 0px 20px 0px 0px;
-                }
-            }
-        }
-
-        .icon_block {
-            img {
-                margin: 0px 0px 0px 20px;
-            }
-        }
-    }
-
-    .category_top_line {
-        border-bottom: 1px solid black;
-    }
-
     .category_main_block {
         display: flex;
         justify-content: space-between;
